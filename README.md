@@ -1,8 +1,29 @@
-# ctf_tools on fedora / dnf 
+# CTF Tools on Fedora / DNF
 
-Steps:
+## Steps:
 
-1-git clone git@github.com:christ972/ctf_tools.git
-2-cd ctf_tools
-3-sudo dnf chmod +x tools_sec.sh
-3-./tools_sec.sh
+1. Clone the repository:
+
+    ```bash
+    git clone git@github.com:christ972/ctf_tools.git
+    ```
+
+2. Navigate to the cloned directory:
+
+    ```bash
+    cd ctf_tools
+    ```
+
+3. Make the script executable:
+
+    ```bash
+    sudo chmod +x tools_sec.sh
+    ```
+
+4. Run the script:
+
+    ```bash
+    ./tools_sec.sh
+    ```
+
+By following these steps, you will install a variety of tools necessary for participating in Capture The Flag (CTF) competitions on your Fedora system.
